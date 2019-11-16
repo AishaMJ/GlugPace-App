@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_action_name"
+            android:title="HOME"/>
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_action_name"
+            android:title="EVENTS" />
+        <item
+            android:id="@+id/nav_blog"
+            android:icon="@drawable/ic_action_name"
+            android:title="BLOG" />
+        <item
+            android:id="@+id/nav_team"
+            android:icon="@drawable/ic_action_name"
+            android:title="TEAM" />
+
+    </group>
+
+
+
+</menu>
